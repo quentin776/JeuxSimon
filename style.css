@@ -1,0 +1,163 @@
+body {
+  background-image: url(https://images5.alphacoders.com/866/866360.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+
+#titre {
+  text-align: center;
+  width: 40%;
+  height: 50%;
+  font-size: 100px;
+  color: rgba(0, 225, 255, 0.5);
+  background-image: url(https://image.freepik.com/vecteurs-libre/neon-abstrait-motif-lumineux-brillant-lampes-rouge-xenon-violet-rose_1441-2495.jpg);
+  position: relative;
+  bottom: 50px;
+  left: 30%;
+  font-size: 40px;
+  margin-left: 35px;
+  margin-top: 40px;
+  opacity: 80%;
+  box-shadow: 5px 5px 25px blanchedalmond;
+}
+
+#cercle {
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+#vert {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 250px 0 0 0;
+  background: rgba(0, 100, 0, 0.75);
+}
+#vert:hover {
+  background-color: rgba(0, 255, 0, 0.75);
+  box-shadow: 5px 5px 5px black;
+  transition: 1s;
+}
+
+#rouge {
+  background: rgba(100, 0, 0, 0.75);
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 250px 0 0;
+  margin-left: 250px;
+}
+
+#rouge:hover {
+  background-color: rgba(255, 0, 0, 0.75);
+  box-shadow: 5px 5px 5px black;
+  transition: 1s;
+}
+
+#bleu {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 0 0 250px;
+  margin-top: 250px;
+  background: rgba(0, 2, 148, 0.75);
+}
+
+#bleu:hover {
+  background-color: rgba(0, 4, 250, 0.75);
+  box-shadow: 5px 5px 5px black;
+  transition: 1s;
+}
+
+#jaune {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 0 250px 0;
+
+  background-color: rgba(140, 150, 0, 0.75);
+  margin: 250px;
+}
+
+#jaune:hover {
+  background: rgba(238, 255, 0, 0.75);
+  box-shadow: 5px 5px 5px black;
+  transition: 1s;
+}
+
+.buttom {
+  position: absolute;
+
+  background-color: rgba(62, 32, 199, 0.815);
+  text-align: center;
+  border-radius: 50%;
+}
+
+.styled {
+  line-height: normal;
+  padding: 10px 20px;
+  font-size: 150%;
+  text-align: center;
+  color: rgba(76, 0, 95, 0.7);
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 200%;
+
+  background-color: rgba(0, 217, 255, 0.7);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 5px 5px 5px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: #808080d0;
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.start {
+  text-align: center;
+  margin-left: -100px;
+  margin-top: 0;
+}
+
+.reset {
+  text-align: center;
+  margin-left: -100px;
+  margin-top: 0;
+}
+
+.aide {
+  margin-left: 500px;
+  text-align: center;
+  text-align: right;
+}
+
+.p {
+  margin-left: -200px;
+}
+
+#carre {
+  height: 300px;
+  width: 500px;
+  position: relative;
+  margin: auto;
+
+  position: absolute;
+
+  background: rgba(255, 255, 255, 0.75);
+
+  margin-left: 500px;
+}
